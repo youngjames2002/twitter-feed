@@ -3,7 +3,8 @@ box:
   id: openjdk:8
   ports:
     - $PORT
-    
+   
+   
 #Build our application using Maven, just as we always have
 build:
   steps:
